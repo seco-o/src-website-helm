@@ -3,12 +3,12 @@ entries:
   src-website:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2024-06-25T12:04:25.639344485Z"
+    created: "2024-06-25T12:11:08.923069685Z"
     description: A Helm chart for Kubernetes
     digest: 67ad64583a6819d5bfbe7ea8a340fdec78e30a1404d8a54bd8406894002e0352
     name: src-website
     type: application
     urls:
-    - https://seco-ogithub.io/src-website-helm/src-website-0.1.0.tgz
+    - https://seco-o.github.io/src-website-helm/src-website-0.1.0.tgz
     version: 0.1.0
-generated: "2024-06-25T12:04:25.638196702Z"
+generated: "2024-06-25T12:11:08.921856761Z"
