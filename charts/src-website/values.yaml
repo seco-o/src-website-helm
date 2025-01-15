@@ -1,4 +1,3 @@
-
 replicaCount: 1
 
 image:
@@ -17,14 +16,14 @@ service:
 
 ingress:
   enabled: yes
-  className: ""
-  annotations: 
+  className: "nginx"
+  annotations:
     kubernetes.io/ingress.class: nginx
     # kubernetes.io/tls-acme: "true"
   hosts:
     - host: sercanonbasi.com
       paths:
-        - path: / 
+        - path: /
           pathType: Prefix
   tls: []
   #  - secretName: chart-example-tls
