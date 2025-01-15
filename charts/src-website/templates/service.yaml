@@ -10,6 +10,6 @@ spec:
     - port: {{ .Values.service.port }}
       targetPort: http
       protocol: TCP
-      name: http
+      name: 8080
   selector:
     {{- include "src-website.selectorLabels" . | nindent 4 }}
